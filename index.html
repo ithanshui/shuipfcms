@@ -1,0 +1,450 @@
+<!doctype html>
+<html lang="zh-cn">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link href="favicon.ico" rel="shortcut icon" />
+<link rel="canonical" href="/" />
+<title>
+ShuipFCMS内容管理系统</title>
+<meta name="description" content="ShuipFCMS网站管理系统,是一款完全开源免费的PHP+MYSQL系统.核心采用了Thinkphp框架等众多开源软件,同时核心功能也作为开源软件发布" />
+<meta name="keywords" content="ShuipFCMS内容管理系统" />
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<link rel="stylesheet"
+	href="/statics/css/bootstrap.min.css">
+<link rel="stylesheet"
+	href="/statics/css/font-awesome.min.css">
+<link rel="stylesheet" href="/statics/css/animate.css">
+<link rel="stylesheet" href="/statics/css/style.css">
+<link type="text/css" href="/statics/css/nprogress.css"
+	rel="stylesheet">
+<link rel="apple-touch-icon-precomposed"
+	href="/statics/images/icon/icon.png">
+<!--[if lt IE 9]>
+    <script src="/statics/js/html5shiv.min.js" type="text/javascript"></script>
+    <script src="/statics/js/respond.min.js" type="text/javascript"></script>
+    <script src="/statics/js/selectivizr-min.js" type="text/javascript"></script>
+<![endif]-->
+</head>
+<body>
+<section class="container user-select">
+  <header>
+<div class="hidden-xs header">
+<!--超小屏幕不显示-->
+  <h1 class="logo"> <a href="/" title="ShuipFCMS内容管理系统"></a> </h1>
+  <ul class="nav hidden-xs-nav">
+    <li class="active"><a href="/"><span class="fa fa-home"></span>网站首页</a></li>
+
+    <li><a href="/index.php?a=lists&catid=1" title="网页教程-网页设计基础教程DIV+CSS" class="dropdown" data-toggle="dropdown"><span class="fa fa-home"></span>网页教程 <i class="caret"></i></a>
+        <ul class="dropdown-menu pull-right">
+            <li><a href="/index.php?a=lists&catid=10" title="HTML/XHTML"><span class="fa fa-qq"></span>HTML/XHTML</a></li><li><a href="/index.php?a=lists&catid=11" title="Dreamweaver"><span class="fa fa-weixin"></span>Dreamweaver</a></li>        </ul>
+      </li>
+    <li><a href="/index.php?a=lists&catid=2" title="前端开发-学习最新前端开发技术" class="dropdown" data-toggle="dropdown"><span class="fa fa-vk"></span>前端开发 <i class="caret"></i></a>
+        <ul class="dropdown-menu pull-right">
+            <li><a href="/index.php?a=lists&catid=12" title="javascript教程"><span class="fa fa-yahoo"></span>javascript教程</a></li><li><a href="/index.php?a=lists&catid=13" title="jquery教程"><span class="fa fa-renren"></span>jquery教程</a></li>        </ul>
+      </li>
+    <li><a href="/index.php?a=lists&catid=3" title="PS教程-学习PS技巧,设计更好的页面" class="dropdown" data-toggle="dropdown"><span class="fa fa-weibo"></span>PS教程 <i class="caret"></i></a>
+        <ul class="dropdown-menu pull-right">
+            <li><a href="/index.php?a=lists&catid=14" title="PS网页制作"><span class="fa fa-windows"></span>PS网页制作</a></li><li><a href="/index.php?a=lists&catid=15" title="PS按钮制作"><span class="fa fa-slack"></span>PS按钮制作</a></li>        </ul>
+      </li>
+    <li><a href="/index.php?a=lists&catid=4" title="提供各种网页效果,让你的网页更炫丽" class="dropdown" data-toggle="dropdown"><span class="fa fa-home"></span>网页特效 <i class="caret"></i></a>
+        <ul class="dropdown-menu pull-right">
+            <li><a href="/index.php?a=lists&catid=16" title="JS幻灯片"><span class="fa fa-weixin"></span>JS幻灯片</a></li><li><a href="/index.php?a=lists&catid=17" title="导航菜单"><span class="fa fa-windows"></span>导航菜单</a></li>        </ul>
+      </li>
+    <li><a href="/index.php?a=lists&catid=5" title="建站素材-提供网页设计必备素材" class="dropdown" data-toggle="dropdown"><span class="fa fa-vk"></span>建站素材 <i class="caret"></i></a>
+        <ul class="dropdown-menu pull-right">
+            <li><a href="/index.php?a=lists&catid=18" title="PNG图标"><span class="fa fa-vk"></span>PNG图标</a></li><li><a href="/index.php?a=lists&catid=19" title="GIF小图标"><span class="fa fa-weixin"></span>GIF小图标</a></li>        </ul>
+      </li>
+    <li><a href="/index.php?a=lists&catid=6" title="各种运营知识分享,助站长一臂之力" class="dropdown" data-toggle="dropdown"><span class="fa fa-renren"></span>网站运营 <i class="caret"></i></a>
+        <ul class="dropdown-menu pull-right">
+            <li><a href="/index.php?a=lists&catid=20" title="SEO网站优化"><span class="fa fa-windows"></span>SEO网站优化</a></li><li><a href="/index.php?a=lists&catid=21" title="网络营销"><span class="fa fa-vk"></span>网络营销</a></li>        </ul>
+      </li>
+    <li><a href="/index.php?a=lists&catid=7" title="站长杂谈-了解互联网第一手资讯" class="dropdown" data-toggle="dropdown"><span class="fa fa-home"></span>站长杂谈 <i class="caret"></i></a>
+        <ul class="dropdown-menu pull-right">
+            <li><a href="/index.php?a=lists&catid=22" title="互联网资讯"><span class="fa fa-weixin"></span>互联网资讯</a></li><li><a href="/index.php?a=lists&catid=23" title="人物访谈"><span class="fa fa-windows"></span>人物访谈</a></li>        </ul>
+      </li>
+    <li><a href="/index.php?a=lists&catid=8" title="设计欣赏-寻找设计灵感提高设计水平" class="dropdown" data-toggle="dropdown"><span class="fa fa-qq"></span>设计欣赏 <i class="caret"></i></a>
+        <ul class="dropdown-menu pull-right">
+            <li><a href="/index.php?a=lists&catid=24" title="酷站欣赏"><span class="fa fa-vk"></span>酷站欣赏</a></li><li><a href="/index.php?a=lists&catid=25" title="标志LOGO"><span class="fa fa-weixin"></span>标志LOGO</a></li>        </ul>
+      </li>
+          <li><a href="/index.php?a=lists&catid=9" title=""><span class="fa fa-windows"></span>常用软件</a></li>
+  </ul>
+  <div class="feeds"> <a class="feed feed-xlweibo" href="index.html" target="_blank"><i class="fa fa-weibo"></i> 新浪微博</a> <a class="feed feed-txweibo" href="index.html" target="_blank"><i class="fa fa-qq"></i> 腾讯微博</a> <a class="feed feed-rss" href="index.html" target="_blank"><i class="fa fa-tags"></i> 订阅本站</a> <a class="feed feed-weixin" data-toggle="popover" data-trigger="hover" title="微信扫一扫" data-html="true" data-content="<img src='/d/160428/weixin.jpg' alt=''>" href="javascript:;" target="_blank"><i class="fa fa-weixin"></i> 关注微信</a> </div>
+  <div class="wall"><a href="readerWall.html" target="_blank">读者墙</a> | <a href="tags.html" target="_blank">标签云</a></div>
+</div>
+<!--/超小屏幕不显示-->
+<div class="visible-xs header-xs">
+<!--超小屏幕可见-->
+  <div class="navbar-header header-xs-logo">
+    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#header-xs-menu" aria-expanded="false" aria-controls="navbar"><span class="glyphicon glyphicon-menu-hamburger"></span></button>
+  </div>
+  <div id="header-xs-menu" class="navbar-collapse collapse">
+    <ul class="nav navbar-nav header-xs-nav">
+      <li class="active"><a href="/" title="ShuipFCMS内容管理系统"><span class="glyphicon glyphicon-home"></span>网站首页</a></li>
+      
+      <li><a href="/index.php?a=lists&catid=1"><span class="fa fa-home"></span>网页教程</a></li><li><a href="/index.php?a=lists&catid=2"><span class="fa fa-vk"></span>前端开发</a></li><li><a href="/index.php?a=lists&catid=3"><span class="fa fa-weibo"></span>PS教程</a></li><li><a href="/index.php?a=lists&catid=4"><span class="fa fa-home"></span>网页特效</a></li><li><a href="/index.php?a=lists&catid=5"><span class="fa fa-vk"></span>建站素材</a></li><li><a href="/index.php?a=lists&catid=6"><span class="fa fa-renren"></span>网站运营</a></li><li><a href="/index.php?a=lists&catid=7"><span class="fa fa-home"></span>站长杂谈</a></li><li><a href="/index.php?a=lists&catid=8"><span class="fa fa-qq"></span>设计欣赏</a></li><li><a href="/index.php?a=lists&catid=9"><span class="fa fa-windows"></span>常用软件</a></li>    
+     
+    </ul>
+    <form class="navbar-form" action="http://www.main.com/index.php?g=Search" method="post" style="padding:0 25px;">
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="请输入关键字" name="q">
+        <span class="input-group-btn">
+        <button class="btn btn-default btn-search" type="submit">搜索</button>
+        </span> </div>
+    </form>
+  </div>
+</div>
+</header>
+<!--/超小屏幕可见-->
+  <div class="content-wrap"> 
+    <!--内容-->
+    <div class="content">
+    	<!--广告推送-->	
+        <div id="carousel" class="carousel slide"
+					data-ride="carousel"> 
+        <!--banner-->
+        <ol class="carousel-indicators">
+        <li data-target="#carousel" data-slide-to="1"></li><li data-target="#carousel" data-slide-to="2"></li><li data-target="#carousel" data-slide-to="3"></li>        </ol>
+        <div class="carousel-inner" role="listbox">
+          <div class="item"> <a href="/index.php?a=shows&catid=21&id=3" target="_blank" title="马云：菜鸟让我们对社会、未来有敬畏之心"> <img src="/d/160428/img3.jpg" alt="马云：菜鸟让我们对社会、未来有敬畏之心" /> </a>
+                <div class="carousel-caption">马云：菜鸟让我们对社会、未来有敬畏之心</div>
+                <span class="carousel-bg"></span> </div><div class="item"> <a href="/index.php?a=shows&catid=21&id=2" target="_blank" title="传网店将收5%营业税 淘宝卖家一年或缴税400亿"> <img src="/d/160428/img2.jpg" alt="传网店将收5%营业税 淘宝卖家一年或缴税400亿" /> </a>
+                <div class="carousel-caption">传网店将收5%营业税 淘宝卖家一年或缴税400亿</div>
+                <span class="carousel-bg"></span> </div><div class="item"> <a href="/index.php?a=shows&catid=21&id=1" target="_blank" title="阿里封杀电商导购原因：分流淘宝 易被对手拉拢"> <img src="/d/160428/img1.jpg" alt="阿里封杀电商导购原因：分流淘宝 易被对手拉拢" /> </a>
+                <div class="carousel-caption">阿里封杀电商导购原因：分流淘宝 易被对手拉拢</div>
+                <span class="carousel-bg"></span> </div>        </div>
+        <a class="left carousel-control" href="#carousel"
+						role="button" data-slide="prev"> <span
+						class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="right carousel-control"
+						href="#carousel" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> </div>
+      <!--/banner-->
+      <div class="content-block hot-content hidden-xs">
+        <h2 class="title"> <strong>本周热门排行</strong> </h2>
+        <ul>
+          <!-- 1栏大图推荐 -->
+          <li class="large"><a href="/index.php?a=shows&catid=22&id=4" target="_blank"> <img
+								src="/d/160428/img1.jpg" alt="为什么新浪微博广告屡遭骂名而豆瓣广告收获好评？">
+                <h3>为什么新浪微博广告屡遭骂名而豆瓣广告收获好评？</h3>
+                </a></li>          <!-- 4栏图片推荐 -->
+          <li><a href="/index.php?a=shows&catid=16&id=10" target="_blank"> <img
+								src="/d/160428/t0192f517982256c1c5.jpg" alt="jquery全屏左右预览焦点图代码">
+                <h3>jquery全屏左右预览焦点图代码</h3>
+                </a></li><li><a href="/index.php?a=shows&catid=22&id=7" target="_blank"> <img
+								src="/d/160428/img3.jpg" alt="反击易迅 京东欲推一日四送">
+                <h3>反击易迅 京东欲推一日四送</h3>
+                </a></li><li><a href="/index.php?a=shows&catid=22&id=6" target="_blank"> <img
+								src="/d/160428/img2.jpg" alt="狗狗搜索宣布关站 版权问题难解">
+                <h3>狗狗搜索宣布关站 版权问题难解</h3>
+                </a></li><li><a href="/index.php?a=shows&catid=22&id=5" target="_blank"> <img
+								src="/d/160428/img1.jpg" alt="大众点评网遭“黑”手：网页跳转至天猫">
+                <h3>大众点评网遭“黑”手：网页跳转至天猫</h3>
+                </a></li>        </ul>
+      </div>
+      <div class="content-block new-content"> 
+        <!-- 最新文章 -->
+        <section id="news-article">
+          <h2 class="title"> <strong>最新文章</strong> </h2>
+          <div class="row">
+          
+          
+            <ul class="list-article">
+             <li class="list-blog">
+						<h3 class="title"><a href="/index.php?a=shows&catid=25&id=35">26款以云为设计元素的logo欣赏</a></h3>
+						<p class="flag">
+						<span class="text-muted"><i class="fa fa-clock-o" aria-hidden="true"></i> 06-22 22:12:44</span>
+						<span><i class="fa fa-eye"></i>：17</span>
+						<span class="pull-right text-pink hidden-xs hidden-sm">
+						<i class=""></i> <a href="" class="btn btn-xs text-pink"></a>
+						</span>
+						</p>
+						<article class="clearfix">
+							<div class="thumbnail col-md-3 col-sm-4 col-xs-12"><img src='/d/160428/t0192f517982256c1c5.jpg' alt='26款以云为设计元素的logo欣赏' class="img-responsive img-block"></div>
+							<div class="col-md-9 col-sm-8 col-xs-12">
+								<p class="desc">26款以云为设计元素的logo欣赏 logo数量：26款 logo所属分类：生活...</p>
+								<p class="text-right"><a href="/index.php?a=shows&catid=25&id=35" class="btn btn-yellow">详细信息&gt;&gt;</a></p>							
+							</div>
+						</article>
+                    </li><li class="list-blog">
+						<h3 class="title"><a href="/index.php?a=shows&catid=24&id=34">Digital Atelier创意网站开发工作室网站欣赏</a></h3>
+						<p class="flag">
+						<span class="text-muted"><i class="fa fa-clock-o" aria-hidden="true"></i> 06-22 22:11:01</span>
+						<span><i class="fa fa-eye"></i>：1</span>
+						<span class="pull-right text-pink hidden-xs hidden-sm">
+						<i class=""></i> <a href="" class="btn btn-xs text-pink"></a>
+						</span>
+						</p>
+						<article class="clearfix">
+							<div class="thumbnail col-md-3 col-sm-4 col-xs-12"><img src='/d/160428/t0192f517982256c1c5.jpg' alt='Digital Atelier创意网站开发工作室网站欣赏' class="img-responsive img-block"></div>
+							<div class="col-md-9 col-sm-8 col-xs-12">
+								<p class="desc">Digital studio focused on web, mobile and facebook development...</p>
+								<p class="text-right"><a href="/index.php?a=shows&catid=24&id=34" class="btn btn-yellow">详细信息&gt;&gt;</a></p>							
+							</div>
+						</article>
+                    </li><li class="list-blog">
+						<h3 class="title"><a href="/index.php?a=shows&catid=10&id=30">alt属性和title属性的区别与介绍</a></h3>
+						<p class="flag">
+						<span class="text-muted"><i class="fa fa-clock-o" aria-hidden="true"></i> 06-22 21:32:25</span>
+						<span><i class="fa fa-eye"></i>：27</span>
+						<span class="pull-right text-pink hidden-xs hidden-sm">
+						<i class=""></i> <a href="" class="btn btn-xs text-pink"></a>
+						</span>
+						</p>
+						<article class="clearfix">
+							<div class="thumbnail col-md-3 col-sm-4 col-xs-12"><img src='/d/160428/t0192f517982256c1c5.jpg' alt='alt属性和title属性的区别与介绍' class="img-responsive img-block"></div>
+							<div class="col-md-9 col-sm-8 col-xs-12">
+								<p class="desc">alt属性    为不能显示图像、窗体或applets的用户代理（UA），alt属性用来指定替换文字。替换文字的语言由lang属性指定。来源：How to......</p>
+								<p class="text-right"><a href="/index.php?a=shows&catid=10&id=30" class="btn btn-yellow">详细信息&gt;&gt;</a></p>							
+							</div>
+						</article>
+                    </li><li class="list-blog">
+						<h3 class="title"><a href="/index.php?a=shows&catid=10&id=29">5种实现页面跳转到指定的地址的方法</a></h3>
+						<p class="flag">
+						<span class="text-muted"><i class="fa fa-clock-o" aria-hidden="true"></i> 06-22 21:30:45</span>
+						<span><i class="fa fa-eye"></i>：1</span>
+						<span class="pull-right text-pink hidden-xs hidden-sm">
+						<i class=""></i> <a href="" class="btn btn-xs text-pink"></a>
+						</span>
+						</p>
+						<article class="clearfix">
+							<div class="thumbnail col-md-3 col-sm-4 col-xs-12"><img src='/d/160428/t0192f517982256c1c5.jpg' alt='5种实现页面跳转到指定的地址的方法' class="img-responsive img-block"></div>
+							<div class="col-md-9 col-sm-8 col-xs-12">
+								<p class="desc">下面列了五个例子来详细说明，这几个例子的主要功能是：在5秒后，自动跳转到同目录下的hello.html（根据自己需要自行修改）文件。1) html......</p>
+								<p class="text-right"><a href="/index.php?a=shows&catid=10&id=29" class="btn btn-yellow">详细信息&gt;&gt;</a></p>							
+							</div>
+						</article>
+                    </li><li class="list-blog">
+						<h3 class="title"><a href="/index.php?a=shows&catid=10&id=25">Nofollow标签是什么意思</a></h3>
+						<p class="flag">
+						<span class="text-muted"><i class="fa fa-clock-o" aria-hidden="true"></i> 06-22 15:27:28</span>
+						<span><i class="fa fa-eye"></i>：0</span>
+						<span class="pull-right text-pink hidden-xs hidden-sm">
+						<i class=""></i> <a href="" class="btn btn-xs text-pink"></a>
+						</span>
+						</p>
+						<article class="clearfix">
+							<div class="thumbnail col-md-3 col-sm-4 col-xs-12"><img src='/d/160428/t0192f517982256c1c5.jpg' alt='Nofollow标签是什么意思' class="img-responsive img-block"></div>
+							<div class="col-md-9 col-sm-8 col-xs-12">
+								<p class="desc">nofollow 是一个HTML标签的属性值。这个标签的意义是告诉搜索引擎&quot;不要追踪此网页上的链接&quot;或&quot;不要追踪此特定链接。　　nofollow简介　　n......</p>
+								<p class="text-right"><a href="/index.php?a=shows&catid=10&id=25" class="btn btn-yellow">详细信息&gt;&gt;</a></p>							
+							</div>
+						</article>
+                    </li>            </ul>
+          </div>
+        </section>
+        <!-- 栏目推荐 -->
+        <section class="cagetory">
+          <ul class="nav nav-tabs">
+            <li class="active"><a href="#tg" data-toggle="tab">网页教程</a></li>
+            <li><a href="#tg1" data-toggle="tab">HTML/XHTML</a></li>
+            <li><a href="#tg2" data-toggle="tab">Dreamweaver</a></li>
+          </ul>
+          <div class="tab-content">
+            <div id="tg" class="active tab-pane in fade">
+              <ul>
+                <li class="title"><a href="/index.php?a=shows&catid=10&id=30" title="alt属性和title属性的区别与介绍">alt属性和title属性的区别与介绍</a></li><li class="title"><a href="/index.php?a=shows&catid=10&id=29" title="5种实现页面跳转到指定的地址的方法">5种实现页面跳转到指定的地址的方法</a></li><li class="title"><a href="/index.php?a=shows&catid=10&id=25" title="Nofollow标签是什么意思">Nofollow标签是什么意思</a></li><li class="title"><a href="/index.php?a=shows&catid=11&id=22" title="DreamWeaver中如何批量删除超级链接">DreamWeaver中如何批量删除超级链接</a></li><li class="title"><a href="/index.php?a=shows&catid=11&id=21" title="DreamWeaver文件保存时提示＂发生共享违例＂问题分析及解决方法">DreamWeaver文件保存时提示＂发生共享违例＂问题分析及解决方法</a></li><li class="title"><a href="/index.php?a=shows&catid=10&id=20" title="html注释条件语句!--[if IE]...![endif]--使用详细介绍">html注释条件语句!--[if IE]...![endif]--使用详细介绍</a></li><li class="title"><a href="/index.php?a=shows&catid=10&id=19" title="5种实现页面跳转到指定的地址的方法">5种实现页面跳转到指定的地址的方法</a></li><li class="title"><a href="/index.php?a=shows&catid=10&id=18" title="关于input标签的一些小知识和技巧">关于input标签的一些小知识和技巧</a></li><li class="title"><a href="/index.php?a=shows&catid=10&id=17" title="针对IE版本的if表达式">针对IE版本的if表达式</a></li><li class="title"><a href="/index.php?a=shows&catid=10&id=16" title="初学必看：html+css小总结">初学必看：html+css小总结</a></li>              </ul>
+            </div>
+            <div id="tg1" class="tab-pane fade">
+              <ul>
+                <li class="title"><a href="/index.php?a=shows&catid=10&id=30" title="alt属性和title属性的区别与介绍">alt属性和title属性的区别与介绍</a></li><li class="title"><a href="/index.php?a=shows&catid=10&id=29" title="5种实现页面跳转到指定的地址的方法">5种实现页面跳转到指定的地址的方法</a></li><li class="title"><a href="/index.php?a=shows&catid=10&id=25" title="Nofollow标签是什么意思">Nofollow标签是什么意思</a></li><li class="title"><a href="/index.php?a=shows&catid=10&id=20" title="html注释条件语句!--[if IE]...![endif]--使用详细介绍">html注释条件语句!--[if IE]...![endif]--使用详细介绍</a></li><li class="title"><a href="/index.php?a=shows&catid=10&id=19" title="5种实现页面跳转到指定的地址的方法">5种实现页面跳转到指定的地址的方法</a></li><li class="title"><a href="/index.php?a=shows&catid=10&id=18" title="关于input标签的一些小知识和技巧">关于input标签的一些小知识和技巧</a></li><li class="title"><a href="/index.php?a=shows&catid=10&id=17" title="针对IE版本的if表达式">针对IE版本的if表达式</a></li><li class="title"><a href="/index.php?a=shows&catid=10&id=16" title="初学必看：html+css小总结">初学必看：html+css小总结</a></li>              </ul>
+            </div>
+            <div id="tg2" class="tab-pane fade">
+              <ul>
+                <li class="title"><a href="/index.php?a=shows&catid=11&id=22" title="DreamWeaver中如何批量删除超级链接">DreamWeaver中如何批量删除超级链接</a></li><li class="title"><a href="/index.php?a=shows&catid=11&id=21" title="DreamWeaver文件保存时提示＂发生共享违例＂问题分析及解决方法">DreamWeaver文件保存时提示＂发生共享违例＂问题分析及解决方法</a></li>              </ul>
+            </div>
+          </div>
+        </section>
+        <!-- 其他栏目 -->
+        <section>
+          <div class="panel panel-default scroll">
+            <div class="panel-heading">
+              <h4 class="panel-title">网页教程 <a data-dismiss=".scroll" class="close">&times;</a> </h4>
+            </div>
+            <div class="panel-body bd">
+              <ul>
+                <li class="col-md-3">
+                      <figure><img src="/d/160428/t0192f517982256c1c5.jpg" alt="alt属性和title属性的区别与介绍" class="img-responsive">
+                        <figcaption>alt属性和title属性的区别与介绍</figcaption>
+                      </figure>
+                    </li><li class="col-md-3">
+                      <figure><img src="/d/160428/t0192f517982256c1c5.jpg" alt="5种实现页面跳转到指定的地址的方法" class="img-responsive">
+                        <figcaption>5种实现页面跳转到指定的地址的方...</figcaption>
+                      </figure>
+                    </li><li class="col-md-3">
+                      <figure><img src="/d/160428/t0192f517982256c1c5.jpg" alt="Nofollow标签是什么意思" class="img-responsive">
+                        <figcaption>Nofollow标签是什么意思</figcaption>
+                      </figure>
+                    </li><li class="col-md-3">
+                      <figure><img src="/d/160428/t0192f517982256c1c5.jpg" alt="DreamWeaver中如何批量删除超级链接" class="img-responsive">
+                        <figcaption>DreamWeaver中如何批量删除超级...</figcaption>
+                      </figure>
+                    </li>              </ul>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+  <!--/内容-->
+  <aside class="sidebar visible-lg"> 
+    <!--右侧>992px显示-->
+    <div class="sentence"> <strong>每日一句</strong>
+      <h2>2015年11月1日 星期日</h2>
+      <p>成长，就是一个不断觉得以前的自己是个傻逼的过程！。</p>
+    </div>
+    <div id="search" class="sidebar-block search" role="search">
+      <h2 class="title"> <strong>搜索</strong> </h2>
+      <form class="navbar-form" action="http://www.main.com/index.php?g=Search"
+					method="post">
+        <div class="input-group">
+          <input type="text" class="form-control" size="35"
+							placeholder="请输入关键字">
+          <span class="input-group-btn">
+          <button class="btn btn-default btn-search" type="submit">搜索</button>
+          </span> </div>
+      </form>
+    </div>
+    <div class="sidebar-block recommend">
+      <h2 class="title"> <strong>热门推荐</strong> </h2>
+      <ul>
+        <li><a target="_blank" href="index.html"> <span class="thumb"><img
+								src="/d/160428/icon.png" alt=""></span> <span class="text">异清轩技术博客的SHORTCUT和ICON图标
+          ...</span> <span class="text-muted">阅读(2165)</span></a></li>
+        <li><a target="_blank" href="index.html"> <span class="thumb"><img
+								src="/d/160428/icon.png" alt=""></span> <span class="text">异清轩技术博客的SHORTCUT和ICON图标
+          ...</span> <span class="text-muted">阅读(2165)</span></a></li>
+        <li><a target="_blank" href="index.html"> <span class="thumb"><img
+								src="/d/160428/icon.png" alt=""></span> <span class="text">异清轩技术博客的SHORTCUT和ICON图标
+          ...</span> <span class="text-muted">阅读(2165)</span></a></li>
+        <li><a target="_blank" href="index.html"> <span class="thumb"><img
+								src="/d/160428/icon.png" alt=""></span> <span class="text">异清轩技术博客的SHORTCUT和ICON图标
+          ...</span> <span class="text-muted">阅读(2165)</span></a></li>
+        <li><a target="_blank" href="index.html"> <span class="thumb"><img
+								src="/d/160428/icon.png" alt=""></span> <span class="text">异清轩技术博客的SHORTCUT和ICON图标
+          ...</span> <span class="text-muted">阅读(2165)</span></a></li>
+      </ul>
+    </div>
+    <div class="sidebar-block comment">
+      <h2 class="title"> <strong>热门点击</strong> </h2>
+      <ul>
+        <li data-toggle="tooltip" data-placement="top"
+						title="alt属性    为不能显示图像、窗体或applets的用户代理（UA），alt属性用来指定替换文字。替换文字的语言由lang属性指定。来源：How to..."><a target="_blank" href="/index.php?a=shows&catid=10&id=30"
+						title="alt属性和title属性的区别与介绍"> <span class="face"> <img src="/d/160428/t0192f517982256c1c5.jpg"
+								alt=""> </span> <span class="text"> <strong>HTML/XHTML</strong> (2013-06-22)<br />
+              alt属性和title属性的区别与介绍... </span> </a></li><li data-toggle="tooltip" data-placement="top"
+						title="26款以云为设计元素的logo欣赏 logo数量：26款 logo所属分类：生活"><a target="_blank" href="/index.php?a=shows&catid=25&id=35"
+						title="26款以云为设计元素的logo欣赏"> <span class="face"> <img src="/d/160428/t0192f517982256c1c5.jpg"
+								alt=""> </span> <span class="text"> <strong>标志LOGO</strong> (2013-06-22)<br />
+              26款以云为设计元素的logo欣赏... </span> </a></li><li data-toggle="tooltip" data-placement="top"
+						title="橘生淮南则为橘，生于淮北则为枳，这句话在社交网络的广告上同样适用。打开新浪微博和豆瓣，你会看到两种风格完全不同的广告，下面随便拿出一些对比。 前者为新浪微博上的推广广告，后者为豆瓣上的硬广推广。二者的差别？我想不用多做解释了吧。看了二者的广告，你可能"><a target="_blank" href="/index.php?a=shows&catid=22&id=4"
+						title="为什么新浪微博广告屡遭骂名而豆瓣广告收获好评？"> <span class="face"> <img src="/d/160428/t0192f517982256c1c5.jpg"
+								alt=""> </span> <span class="text"> <strong>互联网资讯</strong> (2013-06-22)<br />
+              为什么新浪微博广告屡遭骂名而豆...... </span> </a></li><li data-toggle="tooltip" data-placement="top"
+						title="初学必看：html+css小总结经验教程！"><a target="_blank" href="/index.php?a=shows&catid=10&id=16"
+						title="初学必看：html+css小总结"> <span class="face"> <img src="/d/160428/t0192f517982256c1c5.jpg"
+								alt=""> </span> <span class="text"> <strong>HTML/XHTML</strong> (2013-06-22)<br />
+              初学必看：html+css小总结... </span> </a></li><li data-toggle="tooltip" data-placement="top"
+						title="教程虽然用到AI，不过绘制的仅是线稿及简单的色块，没有这款软件的完全可以在PS中完成。面具构造并不复杂，不过质感部分刻画比较麻烦，想省..."><a target="_blank" href="/index.php?a=shows&catid=14&id=24"
+						title="PS结合AI制作钢铁侠面具模型教程"> <span class="face"> <img src="/d/160428/t0192f517982256c1c5.jpg"
+								alt=""> </span> <span class="text"> <strong>PS网页制作</strong> (2013-06-22)<br />
+              PS结合AI制作钢铁侠面具模型...... </span> </a></li><li data-toggle="tooltip" data-placement="top"
+						title="下面列了五个例子来详细说明，这几个例子的主要功能是：在5秒后，自动跳转到同目录下的hello.html（根据自己需要自行修改）文件。1) html..."><a target="_blank" href="/index.php?a=shows&catid=10&id=29"
+						title="5种实现页面跳转到指定的地址的方法"> <span class="face"> <img src="/d/160428/t0192f517982256c1c5.jpg"
+								alt=""> </span> <span class="text"> <strong>HTML/XHTML</strong> (2013-06-22)<br />
+              5种实现页面跳转到指定的地址的方...... </span> </a></li><li data-toggle="tooltip" data-placement="top"
+						title="Digital studio focused on web, mobile and facebook development"><a target="_blank" href="/index.php?a=shows&catid=24&id=34"
+						title="Digital Atelier创意网站开发工作室网站欣赏"> <span class="face"> <img src="/d/160428/t0192f517982256c1c5.jpg"
+								alt=""> </span> <span class="text"> <strong>酷站欣赏</strong> (2013-06-22)<br />
+              Digital Atelier创意网站开发工...... </span> </a></li><li data-toggle="tooltip" data-placement="top"
+						title="写在前面的话：当阿里巴巴买百度关键字，封杀美丽说、蘑菇街之时，谁还曾记得，彼时，阿里还曾将美丽说、蘑菇街当作心头好。是什么原因使阿..."><a target="_blank" href="/index.php?a=shows&catid=21&id=1"
+						title="阿里封杀电商导购原因：分流淘宝 易被对手拉拢"> <span class="face"> <img src="/d/160428/t0192f517982256c1c5.jpg"
+								alt=""> </span> <span class="text"> <strong>网络营销</strong> (2013-06-22)<br />
+              阿里封杀电商导购原因：分流淘宝...... </span> </a></li><li data-toggle="tooltip" data-placement="top"
+						title="山雨欲来风满楼。 5月30日，业界传出电商网店将被征收5%营业税的消息，在电商界犹如扔下了一颗原子弹。 日前，《每日经济新闻》记者就此事先后向国家工商总局市场司司长刘红亮、财政部财政科学研究所所长贾康、财政部财政科学研究所副所长刘尚希等求证，但或许基于话题"><a target="_blank" href="/index.php?a=shows&catid=21&id=2"
+						title="传网店将收5%营业税 淘宝卖家一年或缴税400亿"> <span class="face"> <img src="/d/160428/t0192f517982256c1c5.jpg"
+								alt=""> </span> <span class="text"> <strong>网络营销</strong> (2013-06-22)<br />
+              传网店将收5%营业税 淘宝卖家一年...... </span> </a></li><li data-toggle="tooltip" data-placement="top"
+						title="新浪科技讯 5月28日上午消息，由阿里巴巴集团牵头的物流项目中国智能骨干网（简称CSN）今日在深圳正式启动。马云在会上表示，这次出来并不是所谓的复出，而是为了实现四五年前的想法，只是今天选择了这个秀，今天的出台，是我们一代人的理想、梦想。 马云同时解释了为"><a target="_blank" href="/index.php?a=shows&catid=21&id=3"
+						title="马云：菜鸟让我们对社会、未来有敬畏之心"> <span class="face"> <img src="/d/160428/t0192f517982256c1c5.jpg"
+								alt=""> </span> <span class="text"> <strong>网络营销</strong> (2013-06-22)<br />
+              马云：菜鸟让我们对社会、未来有...... </span> </a></li>      </ul>
+    </div>
+  </aside>
+  <footer class="footer">
+		
+			<div class="">
+				<div class="col-md-3 list-footer col-xs-12 col-sm-12">
+					<h3>关于我们</h3>
+					<p class="small">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+					<p class="small">Vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui.</p>
+				</div>
+				<div class="col-md-3 list-footer">
+					<h3>最新动态</h3>
+					<p class="small"><i class="fa fa-twitter"></i>  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+					
+						http://twitter.com <br>
+						Jan 7, 2013
+					</p>
+					<p class="small"><i class="fa fa-twitter"></i>  Nemo enim ipsam voluptatem quia voluptas sit aspernatur aliquid :)
+					
+						http://twitter.com <br>
+						Jan 7, 2013						
+					</p>
+				</div>
+				<div class="col-md-3 list-footer col-xs-12 col-sm-12">
+					<h3>推荐图文</h3>
+					<ul class="list-unstyled">
+						<li class="col-md-4 col-sm-6 col-xs-6">
+							<figure><img src="/d/160428/t0192f517982256c1c5.jpg" alt="alt属性和title属性的区别与介绍" class="img-responsive img-block"></figure>
+						</li><li class="col-md-4 col-sm-6 col-xs-6">
+							<figure><img src="/d/160428/t0192f517982256c1c5.jpg" alt="5种实现页面跳转到指定的地址的方法" class="img-responsive img-block"></figure>
+						</li><li class="col-md-4 col-sm-6 col-xs-6">
+							<figure><img src="/d/160428/t0192f517982256c1c5.jpg" alt="Nofollow标签是什么意思" class="img-responsive img-block"></figure>
+						</li><li class="col-md-4 col-sm-6 col-xs-6">
+							<figure><img src="/d/160428/t0192f517982256c1c5.jpg" alt="DreamWeaver中如何批量删除超级链接" class="img-responsive img-block"></figure>
+						</li><li class="col-md-4 col-sm-6 col-xs-6">
+							<figure><img src="/d/160428/t0192f517982256c1c5.jpg" alt="DreamWeaver文件保存时提示＂发生共享违例＂问题分析及解决方法" class="img-responsive img-block"></figure>
+						</li><li class="col-md-4 col-sm-6 col-xs-6">
+							<figure><img src="/d/160428/t0192f517982256c1c5.jpg" alt="html注释条件语句!--[if IE]...![endif]--使用详细介绍" class="img-responsive img-block"></figure>
+						</li>					</ul>
+				</div>
+				<div class="col-md-3 list-footer col-xs-12 col-sm-12">
+					<h3>联系信息</h3>
+					<p class="small">103088. Ut wisi enim ad minim veniam, quis nostrud.</p>
+					<p class="small">mail@mail.com</p>
+					<p class="small">+1 (229) 991-22-11</p>
+					<p class="small">Monday-Friday: 9:00 - 18:00 <br>
+						Saturday: 10:00 - 17:00<br>
+						Sunday: closed
+					</p>
+					<ul class="social-icons-footer">
+						<li><i class="fa fa-twitter"></i></li>
+						<li><i class="fa fa-facebook"></i></li>
+						<li><i class="fa fa-google-plus"></i></li>
+						<li><i class="fa fa-pinterest"></i></li>
+						<li><i class="fa fa-linkedin"></i></li>
+						<li><i class="fa fa-dribbble"></i></li>
+						<li><i class="fa fa-rss"></i></li>
+					</ul>
+				</div>
+			</div>
+				<div class="clearfix">
+					<a class="disabled btn btn-link">友情链接：</a>
+    				 <a target="_blank" href="https://www.baidu.com" title="百度一下，你就知道" class="btn btn-link">百度</a>                </div>
+				<p class="">POWERED BY &copy;异清轩 YLSAT.COM ALL RIGHTS RESERVED 豫ICP备15026801号-1</p>
+	
+	<span class="sr-only">统计代码</span>
+</footer>
+<div><a href="javascript:;" class="gotop"></a></div>
+</section>
+<script src="/statics/js/jquery-1.11.2.min.js"
+		type="text/javascript"></script> 
+<script src="/statics/js/bootstrap.min.js"
+		type="text/javascript"></script> 
+<script src="/statics/js/nprogress.js"
+		type="text/javascript"></script> 
+<script src="/statics/js/jquery.SuperSlide.js"
+		type="text/javascript"></script> 
+<script src="/statics/js/site.min.js"
+		type="text/javascript"></script>
+</body>
+</html>
